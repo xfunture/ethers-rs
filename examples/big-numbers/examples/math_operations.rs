@@ -49,4 +49,5 @@ fn main() {
     let mul = eth1.mul(eth2).div(base); // We also divide by 10^18
     let s: String = format_units(mul, "ether").unwrap();
     assert_eq!(s, "200.000000000000000000"); // 200
+    println!("hello,world");
 }
